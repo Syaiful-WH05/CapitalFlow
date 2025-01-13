@@ -1,0 +1,85 @@
+# Project Keuangan Kelas
+
+## Deskripsi Proyek
+Proyek ini adalah sistem pengelolaan keuangan untuk sebuah kelas. Aplikasi ini mencakup pengelolaan anggota, bendahara, transaksi, dan pelaporan keuangan.
+
+## Struktur Proyek
+```
+project-keuangan/
+|— db_connect.php
+|— index.php
+|— style.css
+|— anggota.php
+|— bendahara.php
+|— transaksi.php
+|— tambah_anggota.php
+|— tambah_bendahara.php
+|— tambah_transaksi.php
+|— edit_anggota.php
+|— edit_bendahara.php
+|— edit_transaksi.php
+|— generate_pdf.php
+|— data_keuangan.php
+```
+
+## Instruksi Instalasi
+1. **Clone Repository**: 
+   ```bash
+   git clone https://github.com/username/project-keuangan.git
+   ```
+2. **Setup Database**:
+   - Buat database baru dengan nama `kaskeuangan`.
+   - Import file SQL ke database Anda.
+
+3. **Konfigurasi Koneksi Database**:
+   - Edit file `db_connect.php` dengan kredensial database Anda.
+
+4. **Menjalankan Proyek**:
+   - Gunakan server lokal seperti XAMPP atau WAMP untuk menjalankan aplikasi.
+   - Akses aplikasi melalui browser dengan URL `http://localhost/project-keuangan`.
+
+## Penggunaan
+- **Dashboard**: Menampilkan ringkasan anggota, bendahara, transaksi, dan saldo total.
+- **Anggota**: Menambahkan, mengedit, dan menghapus anggota.
+- **Bendahara**: Menambahkan, mengedit, dan menghapus bendahara.
+- **Transaksi**: Menambahkan, mengedit, dan menghapus transaksi.
+- **Data Keuangan**: Menampilkan laporan keuangan, dengan opsi filter dan pencarian.
+
+## File .gitignore
+```
+# File dan folder yang tidak perlu diunggah
+db_connect.php
+.env
+node_modules/
+.DS_Store
+```
+
+## LICENSE
+Tambahkan lisensi proyek di sini. Contoh:
+```
+MIT License
+
+Copyright (c) 2025 [Nama Anda]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+...
+```
+
+## Kontribusi
+Kami menyambut kontribusi dari siapa saja. Silakan ikuti langkah-langkah berikut untuk berkontribusi:
+1. Fork repositori ini.
+2. Buat branch fitur baru (`git checkout -b fitur-anda`).
+3. Commit perubahan Anda (`git commit -m 'Tambah fitur'`).
+4. Push ke branch (`git push origin fitur-anda`).
+5. Buat Pull Request.
+
+## Dokumentasi Tambahan
+- **Skrip Migrasi Database**: Sertakan skrip untuk setup dan update database.
+- **Test Cases**: Tambahkan kasus uji untuk memastikan stabilitas aplikasi.
+- **Changelog**: Catat perubahan versi dan pembaruan fitur.
