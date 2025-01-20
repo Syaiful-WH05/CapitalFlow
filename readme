@@ -25,7 +25,7 @@ project-keuangan/
 ## Instruksi Instalasi
 1. **Clone Repository**: 
    ```bash
-   git clone https://github.com/username/project-keuangan.git
+   git clone https://github.com/Syaiful-WH05/CapitalFlow.git
    ```
 2. **Setup Database**:
    - Buat database baru dengan nama `kaskeuangan`.
